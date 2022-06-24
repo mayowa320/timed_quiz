@@ -1,0 +1,8 @@
+.list > * {
+  display: block;
+  margin: 5px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}

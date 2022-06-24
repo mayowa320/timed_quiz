@@ -1,0 +1,110 @@
+[
+  {
+    "category": "General Knowledge",
+    "id": "622a1c3d7cc59eab6f951b9c",
+    "correctAnswer": "South Pole",
+    "incorrectAnswers": [
+      "The Peak of Mount Everest",
+      "The Moon",
+      "The Mariana Trench"
+    ],
+    "question": "In 1911 Roald Amundsen became the first person to reach where?",
+    "tags": ["people", "firsts", "general_knowledge"],
+    "type": "Multiple Choice",
+    "difficulty": "medium"
+  },
+  {
+    "category": "General Knowledge",
+    "id": "622a1c357cc59eab6f94fc8a",
+    "correctAnswer": "Discombobulate",
+    "incorrectAnswers": ["Cacophony", "Dragoman", "Dragoman"],
+    "question": "Which word is defined as 'to disconcert of confuse'?",
+    "tags": ["words", "general_knowledge"],
+    "type": "Multiple Choice",
+    "difficulty": "medium"
+  },
+  {
+    "category": "General Knowledge",
+    "id": "622a1c377cc59eab6f95045c",
+    "correctAnswer": "7 Swans A Swimming",
+    "incorrectAnswers": [
+      "7 Maids a Milking",
+      "7 Lords A Leaping",
+      "7 Drummers Drumming"
+    ],
+    "question": "What did my true love give to me on the \"Seventh\" day of Christmas\"?",
+    "tags": ["general_knowledge"],
+    "type": "Multiple Choice",
+    "difficulty": "medium"
+  },
+  {
+    "category": "General Knowledge",
+    "id": "6239f8199129041bf3925cc6",
+    "correctAnswer": "Juliett",
+    "incorrectAnswers": ["Jump", "Jericho", "Jolly"],
+    "question": "What word is used in the NATO Phonetic Alphabet for the letter J?",
+    "tags": ["general_knowledge"],
+    "type": "Multiple Choice",
+    "difficulty": "medium"
+  },
+  {
+    "category": "General Knowledge",
+    "id": "622a1c367cc59eab6f95032a",
+    "correctAnswer": "Bonnie Parker",
+    "incorrectAnswers": ["Ma Baker", "Anne Bonny", "Mary Surratt"],
+    "question": "Who was the first woman to be shot by the FBI?",
+    "tags": ["general_knowledge"],
+    "type": "Multiple Choice",
+    "difficulty": "medium"
+  },
+  {
+    "category": "General Knowledge",
+    "id": "622a1c357cc59eab6f94fe32",
+    "correctAnswer": "Euro",
+    "incorrectAnswers": ["Peso", "Lira", "Dollar"],
+    "question": "What is the basic unit of currency for San Marino?",
+    "tags": ["currency", "general_knowledge"],
+    "type": "Multiple Choice",
+    "difficulty": "medium"
+  },
+  {
+    "category": "General Knowledge",
+    "id": "622a1c357cc59eab6f94fc98",
+    "correctAnswer": "Argle-bargle",
+    "incorrectAnswers": ["Quomodocunquizing", "Valetudinarian", "Agastopia"],
+    "question": "Which word is defined as 'copious but meaningless talk or writing'?",
+    "tags": ["words", "general_knowledge"],
+    "type": "Multiple Choice",
+    "difficulty": "medium"
+  },
+  {
+    "category": "General Knowledge",
+    "id": "6239f82ca72e7a347ac879d3",
+    "correctAnswer": "Quebec",
+    "incorrectAnswers": ["Queen", "Qualify", "Qwerty"],
+    "question": "What word is used in the NATO Phonetic Alphabet for the letter Q?",
+    "tags": ["general_knowledge"],
+    "type": "Multiple Choice",
+    "difficulty": "medium"
+  },
+  {
+    "category": "General Knowledge",
+    "id": "622a1c3a7cc59eab6f951062",
+    "correctAnswer": "Chihuahua",
+    "incorrectAnswers": ["Maltese", "Pomeranian", "Havanese"],
+    "question": "What dog is named after a Mexican state?",
+    "tags": ["animals", "central_america", "names", "general_knowledge"],
+    "type": "Multiple Choice",
+    "difficulty": "medium"
+  },
+  {
+    "category": "General Knowledge",
+    "id": "622a1c357cc59eab6f94fc8b",
+    "correctAnswer": "Doodle Sack",
+    "incorrectAnswers": ["Fipple", "Tittynope", "Quire"],
+    "question": "Which word is defined as 'Old English word for bagpipe'?",
+    "tags": ["words", "general_knowledge"],
+    "type": "Multiple Choice",
+    "difficulty": "medium"
+  }
+]
