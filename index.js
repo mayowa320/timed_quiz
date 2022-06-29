@@ -1,6 +1,8 @@
-var buttonEl = document.getElementById("start");
-var initialTime = 10;
+var startButton = document.getElementById("start");
+var initialTime = 60;
 var timerEl = document.getElementById("timer");
+let timer = null;
+let highScore = document.querySelector("#highScore");
 
 let respond;
 let quizes;
@@ -16,21 +18,24 @@ function updateTimer() {
   timerEl.removeChild(timerEl.lastElementChild);
   showTimer();
 }
-buttonEl.addEventListener("click", async function () {
+startButton.addEventListener("click", async function () {
   // var timerDiv = document.getElementById("div");
   respond = await fetch(
     "https://the-trivia-api.com/api/questions?categories=food_and_drink&limit=10&difficulty=medium"
   );
   quizes = await respond.json();
   timerEl.innerHTML = "";
+  initialTime = 60;
+  currentQuestion = 0;
+  highScore.style.display = "none";
   showTimer();
   console.log("Quiz has started");
-  var countdown = setInterval(() => {
-    initialTime--;
+  timer = setInterval(() => {
     updateTimer();
     if (initialTime < 0) {
-      clearInterval(countdown);
-      initialTime = 10;
+      clearInterval(timer);
+    } else {
+      initialTime--;
     }
     console.log(initialTime);
   }, 1000);
@@ -79,6 +84,9 @@ function renderQuestion(item, isLastQuestion) {
     });
     quiz.append(list);
   } else {
+    clearInterval(timer);
+    initialTime = 0;
+    updateTimer();
     let finish = document.createElement("div");
     finish.innerText = `You answered ${
       (results / quizes.length) * 100
@@ -100,6 +108,11 @@ function renderQuestion(item, isLastQuestion) {
 }
 
 function renderHighScores(scores) {
-  //to do
-  //render list of scores
+  highScore.style.display = "block";
+  highScore.innerHTML = "";
+  for (let name in scores) {
+    let div = document.createElement("div");
+    div.innerHTML = `${name} has score: ${scores[name]}`;
+    highScore.append(div);
+  }
 }
